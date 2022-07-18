@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google Fonts Pre Connect -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <!-- Meta Tags -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Fonts Links (Roboto 400, 500 and 700 included) -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+  <script src="htmlJS.js"></script>
+  <!-- CSS Files Links -->
+  <link rel="stylesheet" href="./styles.css">
+
+  <!-- Title -->
+  <title>Discover Weekly Sorted</title>
+</head>
+
+<body>
+  <h1 id="title">DISCOVER WEEKLY SORTED</h1>
+  <input id="input" placeholder="Enter your favourite song..." oninput="spotifySearch()"></input>
+  <div class="dropdown"> 
+      <div id="dropdown" class="dropdown-content">
+        
+      
+      
+      </div>
+  </div>
+
+  <table id="outer-table" style="align-self: center;">
+
+  </table>
+
+  <input id="button" type="button" onclick="location.href='/scores'" value="GET SCORES" />
+  <input id="button-login" type="button" onclick="location.href='/login'" value="LOGIN" />
+  
+
+  <h2 id="testSongs"></h2>
+
+  
+</body>
+</html>
